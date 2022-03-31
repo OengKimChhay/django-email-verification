@@ -76,12 +76,12 @@ WSGI_APPLICATION = 'email_verification.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # <-- UPDATED line
-        'NAME': 'django_email_verify',  # <-- UPDATED line
-        'USER': 'root',  # <-- UPDATED line
-        'PASSWORD': 'root3333',  # <-- UPDATED line
-        'HOST': 'localhost',  # <-- UPDATED line
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # <-- UPDATED line
+        'NAME': 'df3n4at2pai8t1',  # <-- UPDATED line
+        'USER': 'iwqcsmzujgkcty',  # <-- UPDATED line
+        'PASSWORD': '9077edba7d4c5de0147a78de5af6414029f70a573efdc1b2769e2f1a0376ddf5',  # <-- UPDATED line
+        'HOST': 'ec2-3-217-251-77.compute-1.amazonaws.com',  # <-- UPDATED line
+        'PORT': '5432',
     }
 }
 
