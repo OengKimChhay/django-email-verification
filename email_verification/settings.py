@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'email_verification.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # <-- UPDATED line
+        'ENGINE': 'django.db.backends.postgresql',  # <-- UPDATED line
         'NAME': 'df3n4at2pai8t1',  # <-- UPDATED line
         'USER': 'iwqcsmzujgkcty',  # <-- UPDATED line
         'PASSWORD': '9077edba7d4c5de0147a78de5af6414029f70a573efdc1b2769e2f1a0376ddf5',  # <-- UPDATED line
