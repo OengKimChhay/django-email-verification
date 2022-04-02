@@ -6,8 +6,8 @@ webhook_url:
 sections:
 - type: heading
   label: Dashborad
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: staticfiles/admin/img
+public_path: staticfiles/admin/img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
